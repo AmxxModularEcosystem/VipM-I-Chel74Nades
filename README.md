@@ -1,41 +1,10 @@
-# AmxModX Plugin Repo Template
+# [VipM-I] CHEL74's Greandes
 
-Template AmxModX plugin package for building on Windows.
+Поддержка [ложной](https://c-s.net.ua/forum/topic91919.html) и [святой](https://c-s.net.ua/forum/topic92517.html) гранат от CHEL74.
 
-## `.build-config`
+## Типы предметов
 
-Config for building script `build.bat`.
+- `DecoyGrenade` (VipM-I-Chel74-Decoy.amxx)
+- `HolyGrenade` (VipM-I-Chel74-HolyGrenade.amxx)
 
-```ini
-; Name of output .zip file
-PACKAGE_NAME=Unnemad
-
-; Path from project root to amxmodx folder
-PACKAGE_AMXMODX_FOLDER=amxmodx
-
-; Should add README.md file to .zip
-PACKAGE_README_USE=0
-
-; Should add compiled plugins (.amxx files) to .zip
-PACKAGE_COMPILED_PLUGINS_USE=1
-; Should save compiled plugins in project file after build
-PACKAGE_COMPILED_PLUGINS_SAVE=1
-
-; Should generate plugins-*.ini file and add it to .zip
-PACKAGE_PLUINGS_LIST_USE=0
-; Should postfix of plugins-*.ini file (pastes instead *)
-PACKAGE_PLUINGS_LIST_POSTFIX=unnamed
-; Should save plugins-*.ini file in project file after build
-PACKAGE_PLUINGS_LIST_SAVE=0
-
-; Should add assets to .zip file
-PACKAGE_ASSETS_USE=0
-; Path from project root to folder with assets files
-PACKAGE_ASSETS_FOLDER=assets
-```
-
-## Building
-
-For building you must install AmxModX compiler by [AmxxCompilerInstaller](https://github.com/ArKaNeMaN/batch-AmxxCompilerInstaller).
-
-Also, may be required download depended .inc files.
+Оба типа имеют параметр `Count`, отвечающий за количество выдаваемых гранат.
