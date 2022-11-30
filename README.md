@@ -8,3 +8,8 @@
 - `HolyGrenade` (VipM-I-Chel74-HolyGrenade.amxx)
 
 Оба типа имеют параметр `Count`, отвечающий за количество выдаваемых гранат.
+
+## Пресеты
+
+- `File:Items/Chel74Nades/Holy` - Святая граната
+- `File:Items/Chel74Nades/Decoy` - Ложная граната
