@@ -1,4 +1,4 @@
-# [VipM-I] CHEL74's Greandes
+# [VipM-I] CHEL74's Grenades
 
 Поддержка [ложной](https://c-s.net.ua/forum/topic91919.html) и [святой](https://c-s.net.ua/forum/topic92517.html) гранат от CHEL74.
 
